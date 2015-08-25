@@ -1,0 +1,90 @@
+header {
+	background-color:#008AC3;
+	height:3.12em;
+}
+.mainBlock{
+	height: 69.43em;
+	background-color: #323F52;
+	box-sizing: border-box;
+	padding-top: 10.75em;
+	text-align: center;
+}
+.headTxt{
+	color:white;
+	font-size: 2em;
+	display:block;
+	margin:0 auto 1em;
+}
+.headDscrp {
+	color:white;
+	font-size: 1em;
+	margin:0 auto 1.4em;
+	display:block;
+}
+.createBtn {
+	margin: 0 auto 13.3em;
+	background-color:#008AC3;
+	height:3.37em;
+	width:13em;
+	border: .6em solid #212934;
+}
+.downBtn{
+	background-color: white;
+	height:1.25em;
+	width:3.06em;
+	margin: 0 auto 8.43em;
+}
+.benftsBtn{
+	background-color: white;
+	height:4.25em;
+	width:18.75em;
+	margin: 0 auto 1.8em;
+
+}
+.blueBg{
+	height:11.8em;
+	background-color: #E8F0F5;
+
+}
+.greyBg{
+
+	height:99em;
+	background-color: #D1D3D7;
+	box-sizing:border-box;
+	padding: 2em 0;
+}
+.features{
+	height:13.5em;
+	width:27.3em;
+	background-color: white;
+	margin: 2em auto;
+	
+}
+.btmBlock {
+	height:10.6em;
+	box-sizing:border-box;
+	padding-top:6em;
+}
+.btmBtn {
+	border: none;
+	margin:0 auto;
+}
+
+footer {
+	background-color: black;
+	line-height: 1.5em;
+	padding: 1.7em 3.6em;
+	text-align: center;
+}
+footer a{
+	color:white;
+	text-decoration: none;
+	padding-right:.9em;
+	font-size: .7em;
+}
+.autoLogo{
+	width:8.3em;
+	height:1.5em;
+	background-color: white;
+	margin:1.5em auto 3em;
+}
