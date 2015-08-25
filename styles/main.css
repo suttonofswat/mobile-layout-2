@@ -2,6 +2,26 @@ header {
 	background-color:#008AC3;
 	height:3.12em;
 }
+.logo {
+	float:left;
+	background-color: white;
+	width: 2.1em;
+	height: 2em;
+	margin: .5em 1em;
+}
+.wordpress{
+	float:left;
+	background-color: white;
+	width:7.4em;
+	height:2em;
+	margin:.5em auto;
+}
+.login{
+	background-color: #0070A4;
+	float:right;
+	width: 4.6em;
+	height:3.12em;
+}
 .mainBlock{
 	height: 69.43em;
 	background-color: #323F52;
@@ -41,6 +61,20 @@ header {
 	margin: 0 auto 1.8em;
 
 }
+.mainImg{
+	float:left;
+	width:3.1em;
+	height:3.6em;
+	background-color: #616E7F;
+	margin-top: 0.64em;
+}
+.mainInfo{
+	width: 14.7em;
+	height:3.4em;
+	float:right;
+	background-color: #616E7F;
+	margin:0 .2em;
+}
 .blueBg{
 	height:11.8em;
 	background-color: #E8F0F5;
@@ -55,10 +89,30 @@ header {
 }
 .features{
 	height:13.5em;
-	width:27.3em;
 	background-color: white;
-	margin: 2em auto;
+	margin: 2em .5em;
+	box-sizing:border-box;
+	padding-top: 2.2em;
 	
+}
+.featureImg{
+	height:4em;
+	width:4em;
+	background-color: #C7D2D8;
+	margin: 0 auto;
+}
+.featureTitle{
+	height:1.5em;
+	width:25em;
+	background-color: #C7D2D8;
+	margin:.5em auto;
+}
+.featureDesc{
+	height:3em;
+	width:25em;
+	background-color: #C7D2D8;
+	margin:.8em auto;
+
 }
 .btmBlock {
 	height:10.6em;
