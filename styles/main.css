@@ -2,13 +2,21 @@ header {
 	background-color:#008AC3;
 	height:3.12em;
 }
+.HPBtn{
+
+	text-decoration: none;
+	padding-right: .4em;
+	float:left;
+}
 .logo {
 	float:left;
-	background-color: white;
-	width: 2.1em;
+	width: 2em;
 	height: 2em;
 	margin: .5em 1em;
-}
+	background-image: url("../images/logo.png");
+	background-size: contain;
+}	
+
 .wordpress{
 	float:left;
 	margin:.9em auto;
@@ -25,19 +33,23 @@ header {
     box-sizing: border-box;
     padding: 1.38em 2em;
     font-size: .8em;
+    display:block;
+    text-decoration: none;
 }
-.mainBlock{
+main {
 	height: 69.43em;
-	background-color: #323F52;
+	background-image: url("../images/crowd.jpg");
 	box-sizing: border-box;
 	padding-top: 10.75em;
 	text-align: center;
+	background-size:cover;
 }
 .headTxt{
 	color:white;
 	font-size: 2em;
 	display:block;
 	margin:0 auto 1em;
+	padding: 0 0.7em;
 }
 .headDscrp {
 	color:white;
@@ -53,15 +65,15 @@ header {
 	border: .6em solid #212934;
 	box-sizing: border-box;
 	padding: .6em;
+	display:block;
+	text-decoration: none;
 }
 .downBtn{
-	background-color: white;
-	height:1.25em;
-	width:3.06em;
+	font-size:1.2em;
+	color:white;
 	margin: 0 auto 8.43em;
 }
 .benftsBtn{
-	/*background-color: white;*/
 	height:4.25em;
 	width:18.75em;
 	margin: 0 auto 1.8em;
@@ -69,10 +81,6 @@ header {
 }
 .mainImg{
 	float:left;
-	width:3.1em;
-	height:3.6em;
-	background-color: #fff;
-	/*margin-top: 0.64em;*/
 }
 .mainInfo{
 	width: 14.7em;
@@ -112,7 +120,14 @@ header {
 	width:4em;
 	background-color: #C7D2D8;
 	margin: 0 auto;
+	border-radius: 50%;
 }
+.featureImg img {
+	padding:.9em;
+	height:58%;
+}
+
+
 .featureTitle{
 	color: #426277;
 	text-align: center;
@@ -132,6 +147,8 @@ header {
 	color:#fff;
 	font-size:1em;
 	padding: .4em;
+	display:block;
+	text-decoration: none;
 }
 
 footer {
@@ -146,10 +163,9 @@ footer a{
 	padding-right:.9em;
 	font-size: .7em;
 }
-/*.autoLogo{
-	width:8.3em;
-	height:1.5em;
-	background-color: white;
-	margin:1.5em auto 3em;
+.autoLogo{
+	margin:1.5em auto .2em;
+	display:block;
+	height:1.4em;
 }
-*/
+

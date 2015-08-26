@@ -4,69 +4,91 @@
 		<title>mobile-layout-2/stage1</title>
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" href="styles/main.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	</head>
 <body>
 	<header>
-		<div class="logo"></div>
-		<div class="wordpress">Wordpress<span class="dotCom">.com</span></div>
-		<div class="login">Log In</div>
+		<a class="HPBtn" href="https://wordpress.com/">
+			<div class="logo"></div>
+			<div class="wordpress">Wordpress<span class="dotCom">.com</span></div>
+		</a>
+		<a class="login" href="https://wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fwordpress.com%2F">Log In</a>
 	</header>
 	
- 	<div class="mainBlock">
- 			<span class="headTxt">Create your new website for free</span>
- 			<span class="headDscrp"> WordPress.com is the best place for <br> your personal blog or business site.</span>
- 			<div class="createBtn">Create Website</div>
- 			<div class="downBtn"></div>
- 			<div class="benftsBtn">
- 				<div class="mainImg"></div>
- 				<div class="mainInfo">Ready for mobile<br><span class="mainDesc">Download the iOS or Android app</span></div>
- 			</div>
- 			<div class="benftsBtn">
- 				<div class="mainImg"></div>
- 				<div class="mainInfo">Freshly Pressed<br><span class="mainDesc">Strong voices from around the world</span></div>
- 			</div>
- 			<div class="benftsBtn">
- 				<div class="mainImg"></div>
- 				<div class="mainInfo">Hundreds of designs<br><span class="mainDesc">Find your unique style</span></div>	
- 			</div>
- 	</div>
+ 	<main>
+		<span class="headTxt">Create your new website for free</span>
+		<span class="headDscrp"> WordPress.com is the best place for <br> your personal blog or business site.</span>
+		<a class="createBtn" href="https://wordpress.com/start/theme/themes">Create Website</a>
+		<div class="downBtn"><i class="fa fa-chevron-down"></i></div>
+		<div class="benftsBtn">
+			<div class="mainImg">
+				<img src="images/tablet.png">
+			</div>
+			<div class="mainInfo">Ready for mobile<br><span class="mainDesc">Download the iOS or Android app</span></div>
+		</div>
+		<div class="benftsBtn">
+			<div class="mainImg">
+				<img src="images/newspaper.png">
+			</div>
+			<div class="mainInfo">Freshly Pressed<br><span class="mainDesc">Strong voices from around the world</span></div>
+		</div>
+		<div class="benftsBtn">
+			<div class="mainImg">
+				<img src="images/paint-brush.png">
+			</div>
+			<div class="mainInfo">Hundreds of designs<br><span class="mainDesc">Find your unique style</span></div>	
+		</div>
+ 	</main>
  	
-	<div class="blueBg">WordPress.com is the easiest way to create a free website or blog.  It's a powerful hosting platform that grows with you.</div>
-	<div class= "greyBg">
+	<section class="blueBg">WordPress.com is the easiest way to create a free website or blog.  It's a powerful hosting platform that grows with you.
+	</section>
+
+	<section class= "greyBg">
 		<div class="features">
-			<div class="featureImg"></div>
+			<div class="featureImg">
+				<img src="images/lightbulb.png">
+			</div>
 			<div class="featureTitle">Easy to use</div>
 			<div class="featureDesc">WordPress.com lets you create beautiful and powerful websites or blogs.</div>
 		</div>
 		<div class="features">
-			<div class="featureImg"></div>
+			<div class="featureImg">
+				<img src="images/cloud.png">
+			</div>
 			<div class="featureTitle">Your own domain name</div>
 			<div class="featureDesc">We'll set up and configure your custom domain so that you can start using it in seconds.</div>
 		</div>
 		<div class="features">
-			<div class="featureImg"></div>
+			<div class="featureImg">
+				<img src="images/code.png">
+			</div>
 			<div class="featureTitle">Search engine and SEO friendly</div>
 			<div class="featureDesc">WordPress.com is optimized for SEO and getting your site in front of searchers on Google, Bing, Yahoo, and others.</div>
 		</div>
 		<div class="features">
-			<div class="featureImg"></div>
+			<div class="featureImg">
+				<img src="images/comments.png">
+			</div>
 			<div class="featureTitle">The best support</div>
 			<div class="featureDesc">Our Happiness Engineers work night and day through live chat, email, support pages, and forums to answer any questions you have.</div>
 		</div>
 		<div class="features">
-			<div class="featureImg"></div>
+			<div class="featureImg">
+				<img src="images/gift.png">
+			</div>
 			<div class="featureTitle">Premium plans</div>
 			<div class="featureDesc">Our premium plans give you more control with additional customization options.  They all come with free trials.</div>
 		</div>
 		<div class="features">
-			<div class="featureImg"></div>
+			<div class="featureImg">
+				<img src="images/globe.png">
+			</div>
 			<div class="featureTitle">Millions of users</div>
 			<div class="featureDesc">We welcome 50,000 new sites every day.  From small business sites, artist portfolios, and blogs, to gian media organizations like TIME and CNN.</div>
 		</div>
-	
-	</div>
+	</section>
 	<div class="blueBg"> WordPress powers 23% of the internet
-		<div class="btmBtn">Create Website</div>
+		<a class="btmBtn" href="https://wordpress.com/start/theme/themes">Create Website</a>
 	</div>
 	<footer>
 		<a href="https://apps.wordpress.org/">Apps</a>
@@ -79,7 +101,7 @@
 		<a href="https://en.wordpress.com/tos/">Terms of Service</a>
 		<a href="https://automattic.com/privacy/">Privacy</a>
 		<a href="https://translate.google.com/manager/website/">Language</a>
-		<!-- <div class="autoLogo"></div> -->
+		<img class="autoLogo" src="images/automattic.png">
 	</footer>
 </body>
 </html>
