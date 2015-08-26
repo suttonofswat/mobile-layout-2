@@ -11,16 +11,20 @@ header {
 }
 .wordpress{
 	float:left;
-	background-color: white;
-	width:7.4em;
-	height:2em;
-	margin:.5em auto;
+	margin:.9em auto;
+	color: #fff;
+}
+.dotCom{
+	color:#98CEE4;
 }
 .login{
 	background-color: #0070A4;
 	float:right;
-	width: 4.6em;
-	height:3.12em;
+	color:#fff;
+	text-align: center;
+    box-sizing: border-box;
+    padding: 1.38em 2em;
+    font-size: .8em;
 }
 .mainBlock{
 	height: 69.43em;
@@ -42,11 +46,13 @@ header {
 	display:block;
 }
 .createBtn {
-	margin: 0 auto 13.3em;
+	margin: 0 4em 9em;
 	background-color:#008AC3;
-	height:3.37em;
-	width:13em;
+	color:#fff;
+	font-size:1.4em;
 	border: .6em solid #212934;
+	box-sizing: border-box;
+	padding: .6em;
 }
 .downBtn{
 	background-color: white;
@@ -55,7 +61,7 @@ header {
 	margin: 0 auto 8.43em;
 }
 .benftsBtn{
-	background-color: white;
+	/*background-color: white;*/
 	height:4.25em;
 	width:18.75em;
 	margin: 0 auto 1.8em;
@@ -65,34 +71,40 @@ header {
 	float:left;
 	width:3.1em;
 	height:3.6em;
-	background-color: #616E7F;
-	margin-top: 0.64em;
+	background-color: #fff;
+	/*margin-top: 0.64em;*/
 }
 .mainInfo{
 	width: 14.7em;
 	height:3.4em;
 	float:right;
-	background-color: #616E7F;
 	margin:0 .2em;
+	text-align: left;
+	color: #fff;
+	line-height: 1.5em;
+}
+.mainDesc{
+	font-size:.8em;
 }
 .blueBg{
-	height:11.8em;
-	background-color: #E8F0F5;
-
+	padding: 1em .5em;
+    background-color: #E8F0F5;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.5em;
 }
 .greyBg{
-
-	height:99em;
 	background-color: #D1D3D7;
 	box-sizing:border-box;
-	padding: 2em 0;
+	padding: .1em 0;
 }
 .features{
 	height:13.5em;
 	background-color: white;
 	margin: 2em .5em;
 	box-sizing:border-box;
-	padding-top: 2.2em;
+	padding-top: 1.2em;
 	
 }
 .featureImg{
@@ -102,26 +114,24 @@ header {
 	margin: 0 auto;
 }
 .featureTitle{
-	height:1.5em;
-	width:25em;
-	background-color: #C7D2D8;
+	color: #426277;
+	text-align: center;
 	margin:.5em auto;
+	font-size:1.3em;
 }
 .featureDesc{
-	height:3em;
-	width:25em;
-	background-color: #C7D2D8;
-	margin:.8em auto;
-
-}
-.btmBlock {
-	height:10.6em;
-	box-sizing:border-box;
-	padding-top:6em;
+	margin: .8em auto;
+    text-align: center;
+    line-height: 1.4em;
+    padding: 0 .6em;
+    box-sizing: border-box;
 }
 .btmBtn {
-	border: none;
-	margin:0 auto;
+	margin:1.5em 3.5em 0;
+	background-color:#008AC3;
+	color:#fff;
+	font-size:1em;
+	padding: .4em;
 }
 
 footer {
@@ -136,9 +146,10 @@ footer a{
 	padding-right:.9em;
 	font-size: .7em;
 }
-.autoLogo{
+/*.autoLogo{
 	width:8.3em;
 	height:1.5em;
 	background-color: white;
 	margin:1.5em auto 3em;
 }
+*/
